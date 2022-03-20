@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: rgb(184, 180, 180);
+}
+header{
+    background-color: #363636;
+    height:100px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color:#212121;
+    font-weight: bolder; 
+}
+.icon{
+   padding-top: 15px;
+   
+}
+.icon > input{
+   float:left;
+   border: 4px solid rgb(255, 255, 255);
+   width: 50%;
+   height:30px;
+   
+}
+.icon > input:hover{
+    border: 1px solid gray;
+}
+.icon > button{
+    cursor: pointer;
+    border:none;
+    height: 30px;
+    width:40px;
+
+    float:left;
+}
+
+
+
+
+b{
+    font-size: 40px;
+    float:left;
+    margin-right:15%;
+    
+}
+
+nav{
+    background-color: #867f78;
+    float: left;
+    width:5cm;
+    height:15cm;
+    display: flexbox;
+    
+    
+}
+nav ul li{
+    margin-top: 50px;
+    font-weight: 900;
+}
+  
+nav ul li a{
+    
+    font-size: 20px;
+    color:black ; 
+    transition: color .5s;
+}
+   
+nav ul li a:hover{
+   color: white;
+    
+}
+.isi{
+    display:flex;
+    cursor: pointer;
+    background-color: rgb(184, 180, 180);
+    
+}
+.Home{
+    margin:20px 20px;
+     background-color: rgb(184, 180, 180);
+
+}
+
+.tengah5 {
+    
+    float:right;
+    margin:5px;
+    width:150px;
+    height:150px;
+    padding:5px 5px;
+    margin-bottom: 80px;
+    transition: padding .2s;
+    background-color:#160040;
+}
+
+
+
+.tengah5:hover{
+padding: 0;
+}
+
+
+footer{
+    background-color: #363636;
+    text-align: center;
+    height:100px;
+    padding-top:50px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
+section::after{
+    content:"";
+    display:table;
+    clear:both;
+}
